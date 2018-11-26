@@ -1,6 +1,6 @@
 package prob3;
 
-public class Prob3 {
+public class Prob3 {//static 문제
 
 	public static void main(String[] args) {
 		CurrencyConverter.setRate( 1118.70 );

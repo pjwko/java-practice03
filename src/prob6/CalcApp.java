@@ -15,22 +15,22 @@ public class CalcApp {
 				break;
 			}
 			
-			String[] tokens = expression.split(" ");
+			String[] tokens = expression.split(" "); //빈칸 필수
 			String operator = tokens[1];
 			int a = Integer.parseInt(tokens[0]);
 			int b = Integer.parseInt(tokens[2]);
 
 			switch( operator ) {
-				case "+" : {
+				case "+" : { //sum객체 필요
 					break;
 				}
-				case "-" : {
+				case "-" : {//add
 					break;
 				}
-				case "*" : {
+				case "*" : {//mul
 					break;
 				}
-				case "/" :{
+				case "/" :{//div
 					break;
 				}
 				default : {

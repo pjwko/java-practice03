@@ -1,6 +1,6 @@
 package prob4;
 
-public class StringUtilTest {
+public class StringUtilTest {//static + 배열순환 문제
 
 	public static void main(String[] args) {
         String[] strArr = {"SuperMan", "BatMan", "SpiderMan"}; 
